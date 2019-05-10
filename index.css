@@ -1,38 +1,121 @@
+
+.netflix-sans-font-loaded {
+    font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
 body{
     background: #141414;
     font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
     margin: auto 10px;
     width: auto;
-    
-}
+    font: thin;
+} 
 
 .main{
+    display:grid;
     margin: 10px;
+    grid-template-columns: 3.5fr 5fr 3.5fr
+    }
+
+.logo{
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+a:link {
+    color: white;
+    text-decoration: none;   
+}
+
+a:hover {
+    color: white;
+    text-decoration: none;
+    }
+a:active {
+    color: white;
+    text-decoration: none;
+    
+}
+a:visited {
+    color: grey;
+    text-decoration: none;
 }
 
 .mainText{
     color: white;
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-size: 10px;
+    text-align: center;
+    padding-top: 10%;
+    font-size: 100%
+
 }
 
-.logo{
-    color: red;
-    font: 'Helvetica Neue';
-    
-
+.profiles{
+display: flex;
+text-align: center;
 }
+
+
 
 .faith{
     color: grey;
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+    text-align: center;
+    flex: 1;
 }
 
-.keve{
-    color: grey;
+div.faith:hover {
+    color:white;
+     font-family: sans-serif;
+     text-align: center;
+     flex: 1;}
+
+.iconOne{
+    border: .3em solid rgba(0,0,0,.4);
+    background-size: cover;
+    background-color: #333;
+    width: 10vw;
+    max-height: 110px;
+    max-width: 110px;
+    min-height: 110px;
+    min-width: 110px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    position: relative;
+    text-decoration: none;
+    background-repeat: no-repeat;
+
+}
+div.iconOne:hover{
+    border: .3em solid white(0,0,0,.4);
+    background-size: cover;
+    background-color: white;
+    width: 10vw;
+    max-height: 110px;
+    max-width: 110px;
+    min-height: 110px;
+    min-width: 110px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    position: relative;
+    text-decoration: none;
+    background-repeat: no-repeat;
 }
 
-.kai{
+.manage{
+    border: grey thin solid;
     color: grey;
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
 }
-
-.kc{
-    color: grey;
+div.manage:hover {
+    color: white;
+    border: white thin solid;
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
 }
