@@ -1,3 +1,25 @@
 body{
+background-color: cornsilk;
+text-align: center;
+color: black;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+display: grid;
+grid-template-columns: 2fr 8fr 2fr
+}
 
+.left{
+
+}
+
+.mid{
+
+}
+
+.main{
+    display: flex;
+    text-align: center;
+}
+
+.right{
+padding-top: 10%
 }
