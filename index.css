@@ -4,7 +4,7 @@
 }
 
 body{
-    background: #141414;
+    background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/a27b8244-8c0b-4db4-984e-0cd57daa489d/3fd20efb-f927-456e-b0f6-5fdd24ccfe99/US-en-20190506-popsignuptwoweeks-perspective_alpha_website_large.jpg");
     font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
     margin: auto 10px;
     width: auto;
@@ -21,6 +21,11 @@ body{
     cursor: pointer;
     margin-right: 5px;
 }
+.signIn{
+    color: white;
+    text-decoration: none;
+}
+
 
 a:link {
     color: white;
@@ -41,81 +46,38 @@ a:visited {
     text-decoration: none;
 }
 
-.mainText{
+
+.button {
     color: white;
-    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
-    font-size: 10px;
+    border-radius: 4px;
+    background: red;
+    padding-left: 16px;
+    padding-right: 16px;
+    size: 60%;
+    margin: 2fr 4fr 2fr;
     text-align: center;
-    padding-top: 10%;
-    font-size: 100%
+    margin-top: 5%;
+    padding-top: .5px;
+    padding-bottom: .5px;
+}
+
+.bulk{
+    opacity: .8;
+    filter: alpha(opacity=30); 
+    background-color: black;
+    margin-top: 20%;
+    padding-bottom: 50%
+}
+
+.signIn{
+    opacity: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
 
 }
 
-.profiles{
-display: flex;
-text-align: center;
-}
-
-
-
-.faith{
-    color: grey;
-    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
-    text-align: center;
-    flex: 1;
-}
-
-div.faith:hover {
-    color:white;
-     font-family: sans-serif;
-     text-align: center;
-     flex: 1;}
-
-.iconOne{
-    border: .3em solid rgba(0,0,0,.4);
-    background-size: cover;
-    background-color: #333;
-    width: 10vw;
-    max-height: 110px;
-    max-width: 110px;
-    min-height: 110px;
-    min-width: 110px;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    position: relative;
-    text-decoration: none;
-    background-repeat: no-repeat;
-
-}
-div.iconOne:hover{
-    border: .3em solid white(0,0,0,.4);
-    background-size: cover;
-    background-color: white;
-    width: 10vw;
-    max-height: 110px;
-    max-width: 110px;
-    min-height: 110px;
-    min-width: 110px;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    position: relative;
-    text-decoration: none;
-    background-repeat: no-repeat;
-}
-
-.manage{
-    border: grey thin solid;
-    color: grey;
-    text-align: center;
-    margin-left: 30%;
-    margin-right: 30%;
-}
-div.manage:hover {
-    color: white;
-    border: white thin solid;
-    text-align: center;
-    margin-left: 30%;
-    margin-right: 30%;
+input{
+    padding-left: 29%;
+    padding-right: 29%;
+    padding-top: 5%;
 }
